@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0V9nx2mxKkGoTMJdNmUvJA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="live6.dentrixascend.com/pm" CVScreenId="b18d252d-6017-4ed5-89e2-59b320074670" CvTextArea="788, 876, 97, 15" CvTextArgument="Power Reporting" CvType="Text" DesignTimeRectangle="779, 869, 182, 27" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='customReports' tag='A' /&gt;" Guid="8c1ac32d-e4e4-4988-a062-48ab90e69e0c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dentrix Ascend - Overview' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b18d252d-6017-4ed5-89e2-59b320074670" CvElementArea="777, 235, 185, 30" CvType="InputBox" DesignTimeRectangle="779, 237, 182, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='reports-menu' tag='SPAN' type='' class='dropdown-title' aaname='Reports' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='REPORTS' /&gt;" Guid="0decdc32-7813-40c3-820f-bf69ab905ae0" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1ef450398389a2b7b23077d4e7b10a44.png" xmlns="">0RvO6k7Fr40yOTesmuNO7_g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

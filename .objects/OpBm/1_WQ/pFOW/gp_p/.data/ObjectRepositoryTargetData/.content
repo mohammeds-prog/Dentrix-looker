@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fmA8POGSVUKPFVRercV0HA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="auth.henryscheinone.com/u/login" CVScreenId="9579aacb-6033-426e-aa82-2d16fa1ec78d" CvElementArea="806, 762, 323, 54" CvTextArea="934, 779, 67, 17" CvTextArgument="Continue" CvType="Button" DesignTimeRectangle="806, 762, 323, 54" ElementType="Button" ElementVisibilityArgument="Interactive" Guid="f0de9265-2fb2-4629-bf62-275adc680deb" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Log in | Dentrix Ascend - Google Chrome' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9579aacb-6033-426e-aa82-2d16fa1ec78d" CvTextArea="894, 720, 148, 14" CvTextArgument="FORGOT PASSWORD" CvType="Text" DesignTimeRectangle="894, 720, 148, 14" ElementType="Text" Guid="a33ff0c4-a2e3-4818-b858-f8d85bef9b61" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6682d5cba0fa4fe47191eef848076818.png" xmlns="">0WFJ7IIPyV0aLEKpGo6bKJQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

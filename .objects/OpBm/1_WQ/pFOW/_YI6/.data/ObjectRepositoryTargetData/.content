@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="VF50yTUkqUS8E0BrM55tHg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="live6.dentrixascend.com/pm" CVScreenId="3661252c-0bb8-4979-8e71-3b9557aefbec" CvElementArea="1049, 711, 89, 42" CvTextArea="1071, 725, 44, 16" CvTextArgument="Export" CvType="Button" DesignTimeRectangle="1049, 711, 89, 42" ElementType="Button" ElementVisibilityArgument="Interactive" Guid="1ef77a41-a0d2-4eaa-9d0a-8551625ec46a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dentrix Ascend - Power Reporting' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="3661252c-0bb8-4979-8e71-3b9557aefbec" CvElementArea="1144, 711, 88, 41" CvTextArea="1166, 724, 44, 14" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="1144, 711, 88, 42" ElementType="Button" Guid="4ee680f6-098e-47da-8c4b-f4fea1458c25" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="16bb86f26d2de722fe27033c20805bd6.png" xmlns="">04QEWQJmTK0q0c64CSeO2NQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

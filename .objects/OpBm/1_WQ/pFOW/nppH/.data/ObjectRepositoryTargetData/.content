@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="b6jj863zbkW-kC77eaBTAA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="live6.dentrixascend.com/login" CVScreenId="826cabb9-4a11-43af-8a94-8576a0820c46" CvElementArea="787, 679, 363, 29" CvTextArea="940, 685, 56, 14" CvTextArgument="Continue" CvType="Button" DesignTimeRectangle="787, 679, 363, 29" ElementType="Button" ElementVisibilityArgument="Interactive" Guid="be437820-1be0-458f-835f-abe1bfe65874" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Dentrix Ascend - Login - Google Chrome' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="826cabb9-4a11-43af-8a94-8576a0820c46" CvTextArea="787, 610, 61, 12" CvTextArgument="Username" CvType="Text" DesignTimeRectangle="787, 610, 61, 12" ElementType="Text" Guid="cb376e8e-8005-4da2-83d2-bbc5dd806e70" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ec856df2b3b1649c2f4451c61a0e2faf.png" xmlns="">0oExQDbwuDEW0nSABOozXeA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

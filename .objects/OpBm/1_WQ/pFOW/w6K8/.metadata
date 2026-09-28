@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Power Reporting(5)",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "w6K8bVGtR0eqeVSAR8c2-g",
+  "Reference": "pqAS0brmv0e-eRPLlBx1NA/w6K8bVGtR0eqeVSAR8c2-g",
+  "ParentRef": "pqAS0brmv0e-eRPLlBx1NA/pFOWoEYQiUOkDKejVZy6Fw",
+  "Created": "2026-09-22T13:57:02.9926687Z",
+  "Updated": "2026-09-22T13:57:02.9926687Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

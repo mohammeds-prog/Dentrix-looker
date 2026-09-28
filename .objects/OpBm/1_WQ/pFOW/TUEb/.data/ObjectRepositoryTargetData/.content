@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="vtIZG_F95U2K0ohthu7YXg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="live6.dentrixascend.com/pm" CVScreenId="183660b3-2743-4f39-981d-367254610299" CvTextArea="27, 247, 157, 24" CvTextArgument="Power Reporting" CvType="Text" DesignTimeRectangle="28, 245, 156, 25" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='powerReportingTitle' tag='SPAN' /&gt;" Guid="c7e09e8f-9058-4a37-8b97-f7c128ffa46a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dentrix Ascend - Power Reporting' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="183660b3-2743-4f39-981d-367254610299" CvElementArea="188, 246, 22, 22" CvTextArea="214, 246, 343, 25" CvTextArgument="New Patients(2) - Marketing(Looker)" CvType="ArrowButton" DesignTimeRectangle="184, 245, 382, 25" FuzzySelectorArgument="&lt;webctrl id='titleBarReportName' tag='SPAN' type='' class='' aaname='  &amp;gt;  New Patients(2) - Marketing(Looker)  ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='&amp;gt;  New Patients(2) - Marketing(Looker)' /&gt;" Guid="388e7909-187d-46df-b6bb-8c5c3a128806" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="0e226800b2e2fd22b904c7d08bd76f7e.png" xmlns="">0S0nm371mqkKT4aW13e_tLQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="CXNWHNSRdUeThNlHYw24Yg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="live6.dentrixascend.com/pm" DesignTimeRectangle="450, 185, 20, 42" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='drop1' tag='A' type='' class='caretContainer dropdown-toggle noLoader nav-link' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="36e21e78-cb17-47f3-b16b-3e9ad9e915c2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dentrix Ascend - Overview' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="00f93042-7915-4a45-ad8d-7aeecbf53959" CvTextArea="404, 197, 37, 13" CvTextArgument="Home" CvType="Text" DesignTimeRectangle="373, 185, 74, 42" FuzzySelectorArgument="&lt;webctrl parentid='mainNavigationBar' tag='SPAN' type='' class='split-nav-link' aaname='                                                  Home                     ' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Home' /&gt;" Guid="48b26002-1b99-4d3c-8ba5-00f90b6625bf" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="817661883afa210d4d9462367e99d074.png" xmlns="">0r8veaIkDmEm7RXuXp_QcVg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

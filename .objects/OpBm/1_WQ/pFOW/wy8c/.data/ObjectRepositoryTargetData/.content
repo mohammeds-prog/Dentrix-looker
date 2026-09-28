@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="8svZCkegP0yr1un1XVnWEQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="live6.dentrixascend.com/pm" CVScreenId="79726c7e-c424-492a-95b6-b85028685c42" CvElementArea="730, 303, 25, 20" CvType="Icon" DesignTimeRectangle="728, 301, 29, 24" ElementType="Icon" ElementVisibilityArgument="Interactive" Guid="30e00e33-85f1-4d18-806a-8d8c12380cdc" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB0AAAAYCAYAAAAGXva8AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEjSURBVEhL7ZS9DYMwEEazGgPQMwA9A9DTMwA9PT0D0DMAPQPQOXqRPssxNj8SJClSPGHd2X74fPBYlsV8mocf+AR/6a38trTve5MkyYu2bVf5M2xKu64zaZqapmlMURRWmmXZK8azqqrVuj2i0nEcrUTwAuDHz548KgVOItkwDDbOOM9zm5umabV2i6iUjSTl1H5+nmd76kuklEulK8tylRd1Xb+VmBfhjnlqTigWlNIk2oyxn4/Nk4DSMwbGNOGulM9DpWWRnxdUgTnMpdMVlxhC3R2UCjWLu6GgmdRIfg6QhYQQlbqNAmyACNyygtvZR4hK6cjQNxmC6/DXbxGVAp8K98amuj+g7JyO04dKv8em1EV3CGf/QD6HpVfyl97KV6RPFXHc/GsPyy8AAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dentrix Ascend - Power Reporting' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="79726c7e-c424-492a-95b6-b85028685c42" CvTextArea="506, 197, 58, 13" CvTextArgument="Schedule" CvType="Text" DesignTimeRectangle="476, 185, 93, 42" FuzzySelectorArgument="&lt;webctrl class='split-nav-link' type='' parentid='mainNavigationBar' tag='SPAN' aaname='                                                  Schedule                     ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Schedule' /&gt;" Guid="31527da6-9711-43c7-aee4-ce824a7f5dee" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="45fb7efe198b9f32f4d448979ecc8eb1.png" xmlns="">0k2--gnyb6ES2dUY7flw8PQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

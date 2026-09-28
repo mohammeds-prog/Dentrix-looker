@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Schedule",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "wy8c0mSDtk-tvI_8ZRcS4A",
+  "Reference": "pqAS0brmv0e-eRPLlBx1NA/wy8c0mSDtk-tvI_8ZRcS4A",
+  "ParentRef": "pqAS0brmv0e-eRPLlBx1NA/pFOWoEYQiUOkDKejVZy6Fw",
+  "Created": "2026-01-07T21:01:13.0068609Z",
+  "Updated": "2026-01-07T21:01:13.0068609Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

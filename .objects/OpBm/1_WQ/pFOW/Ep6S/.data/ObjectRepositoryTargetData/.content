@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ZCaQtAtKYUOapV19J3MWDw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="live6.dentrixascend.com/login" CVScreenId="0d5407c6-37a5-4e34-96ee-21a53d008031" CvTextArea="943, 518, 49, 16" CvTextArgument="LOGIN" CvType="Text" DesignTimeRectangle="788, 512, 360, 30" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='LEGEND' /&gt;" Guid="74e7f19b-4ef2-44c3-88de-96b266a3c915" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dentrix Ascend - Login' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0d5407c6-37a5-4e34-96ee-21a53d008031" CvTextArea="826, 477, 282, 28" CvTextArgument="DENTRIXASCEND" CvType="Text" DesignTimeRectangle="829, 479, 282, 24" FullSelectorArgument="&lt;webctrl id='loginLogo' tag='DIV' /&gt;" Guid="e2e28e65-c556-4a15-894b-5b8084a43d27" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="99b05b300b94ac66264344ec3da18ba9.png" xmlns="">01V3wtXBYz0-IVLcF87Kewg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

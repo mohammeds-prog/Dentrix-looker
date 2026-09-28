@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Dentrix Ascend - Power Reporting",
+  "Type": "Screen",
+  "Id": "tsY3tA-NhUOmFpaCLPxkhg",
+  "Reference": "pqAS0brmv0e-eRPLlBx1NA/tsY3tA-NhUOmFpaCLPxkhg",
+  "ParentRef": "pqAS0brmv0e-eRPLlBx1NA/1_WQt4Ydu0eLTaPxNytqDg",
+  "Created": "2026-01-05T14:25:05.5853566Z",
+  "Updated": "2026-01-05T14:25:05.5853566Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,474 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:sd2="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:uga="clr-namespace:UiPath.GSuite.Activities;assembly=UiPath.GSuite.Activities" xmlns:ugade="clr-namespace:UiPath.GSuite.Activities.Drive.Enums;assembly=UiPath.GSuite.Activities" xmlns:ugam="clr-namespace:UiPath.GSuite.Activities.Models;assembly=UiPath.GSuite.Activities" xmlns:ugase="clr-namespace:UiPath.GSuite.Activities.Sheets.Enums;assembly=UiPath.GSuite.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:usau="clr-namespace:UiPath.Shared.Activities.Utils;assembly=UiPath.GSuite.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>UiPath.CV.Activities</x:String>
+      <x:String>UiPath.CV.Activities.Interfaces</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>UiPath.Semantic.Activities</x:String>
+      <x:String>UiPath.Semantic.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Design.SWEntities.fd11537210237.Bundle</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>UiPath.GSuite.Activities.Drive.Enums</x:String>
+      <x:String>UiPath.Shared.Activities.Utils</x:String>
+      <x:String>UiPath.GSuite.Drive.Models</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.GSuite.Activities.Models</x:String>
+      <x:String>UiPath.GSuite.Activities</x:String>
+      <x:String>UiPath.Shared.Activities.ConnectionService.Contracts</x:String>
+      <x:String>UiPath.CSV</x:String>
+      <x:String>UiPath.CSV.Activities</x:String>
+      <x:String>UiPath.GSuite.Activities.Sheets.Enums</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.Platform.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers.Scope</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>fd11537210237.v9O1s2zecKS18Tj0H2yPaNI</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Linq.Async.Queryable</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.Watcher</AssemblyReference>
+      <AssemblyReference>System.IO.Packaging</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.AccessControl</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1309,5864" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="latest_file2" />
+      <Variable x:TypeArguments="x:String" Name="latest_file" />
+      <Variable x:TypeArguments="sd2:DataTable" Name="newpt_table" />
+      <Variable x:TypeArguments="x:String" Name="variable2" />
+      <Variable x:TypeArguments="x:String" Name="variable1" />
+      <Variable x:TypeArguments="sd2:DataTable" Name="table" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Dentrix Ascend - Overview" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="564,5841" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="55bf851e-10f6-4b00-b7c8-f1ee9fc2edfc" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="562,5651" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NCheckState DisplayName="Check App State 'LOGIN'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="528,1053" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="55bf851e-10f6-4b00-b7c8-f1ee9fc2edfc" Timeout="100" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,673" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Button(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,190" sap2010:WorkflowViewState.IdRef="NClick_11" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="55bf851e-10f6-4b00-b7c8-f1ee9fc2edfc" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="live6.dentrixascend.com/login" CVScreenId="826cabb9-4a11-43af-8a94-8576a0820c46" ContentHash="b6jj863zbkW-kC77eaBTAA" CvElementArea="787, 679, 363, 29" CvTextArea="940, 685, 56, 14" CvTextArgument="Continue" CvType="Button" DesignTimeRectangle="787, 679, 363, 29" ElementType="Button" ElementVisibilityArgument="Interactive" Guid="be437820-1be0-458f-835f-abe1bfe65874" InformativeScreenshot="ec856df2b3b1649c2f4451c61a0e2faf.png" Reference="pqAS0brmv0e-eRPLlBx1NA/nppH8A3GEUCLA9DZ8LwV_g" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Dentrix Ascend - Login - Google Chrome' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="826cabb9-4a11-43af-8a94-8576a0820c46" CvTextArea="787, 610, 61, 12" CvTextArgument="Username" CvType="Text" DesignTimeRectangle="787, 610, 61, 12" ElementType="Text" Guid="cb376e8e-8005-4da2-83d2-bbc5dd806e70" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Log in to continue to D…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,242" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="HardwareEvents" ScopeIdentifier="55bf851e-10f6-4b00-b7c8-f1ee9fc2edfc" Text="Sahil@1234" Version="V5">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable BrowserURL="auth.henryscheinone.com/u/login" CVScreenId="ed47fbd9-c1d6-4022-bec8-7266795e846c" ContentHash="GQ5cWo7JMke4mzirXq4V9w" CvElementArea="807, 646, 323, 57" CvType="InputBox" DesignTimeRectangle="807, 647, 322, 56" ElementType="InputBox" ElementVisibilityArgument="Interactive" Guid="1b900a09-732d-4db7-80ce-db4c10284fee" InformativeScreenshot="d3c7609b0a628f7c693d9810c9adf242.png" Reference="pqAS0brmv0e-eRPLlBx1NA/QMjPUwzMtUaGRYtx_cyokw" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Log in | Dentrix Ascend - Google Chrome' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="ed47fbd9-c1d6-4022-bec8-7266795e846c" CvTextArea="854, 541, 227, 16" CvTextArgument="Log in to continue to Dentrix Ascend" CvType="Text" DesignTimeRectangle="854, 541, 227, 17" ElementType="Text" Guid="00dde1ba-caf0-46fb-aa73-0a66d2988422" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NTypeInto.Target>
+                  </uix:NTypeInto>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Button(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,181" sap2010:WorkflowViewState.IdRef="NClick_12" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="55bf851e-10f6-4b00-b7c8-f1ee9fc2edfc" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="auth.henryscheinone.com/u/login" CVScreenId="9579aacb-6033-426e-aa82-2d16fa1ec78d" ContentHash="fmA8POGSVUKPFVRercV0HA" CvElementArea="806, 762, 323, 54" CvTextArea="934, 779, 67, 17" CvTextArgument="Continue" CvType="Button" DesignTimeRectangle="806, 762, 323, 54" ElementType="Button" ElementVisibilityArgument="Interactive" Guid="f0de9265-2fb2-4629-bf62-275adc680deb" InformativeScreenshot="6682d5cba0fa4fe47191eef848076818.png" Reference="pqAS0brmv0e-eRPLlBx1NA/gp_p5uG5C0mXrREY_GjWzw" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Log in | Dentrix Ascend - Google Chrome' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="9579aacb-6033-426e-aa82-2d16fa1ec78d" CvTextArea="894, 720, 148, 14" CvTextArgument="FORGOT PASSWORD" CvType="Text" DesignTimeRectangle="894, 720, 148, 14" ElementType="Text" Guid="a33ff0c4-a2e3-4818-b858-f8d85bef9b61" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="live6.dentrixascend.com/login" CVScreenId="0d5407c6-37a5-4e34-96ee-21a53d008031" ContentHash="ZCaQtAtKYUOapV19J3MWDw" CvTextArea="943, 518, 49, 16" CvTextArgument="LOGIN" CvType="Text" DesignTimeRectangle="788, 512, 360, 30" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='LEGEND' /&gt;" Guid="74e7f19b-4ef2-44c3-88de-96b266a3c915" InformativeScreenshot="99b05b300b94ac66264344ec3da18ba9.png" Reference="pqAS0brmv0e-eRPLlBx1NA/Ep6SI09pF0WsXY8hFeVW8A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dentrix Ascend - Login' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="0d5407c6-37a5-4e34-96ee-21a53d008031" CvTextArea="826, 477, 282, 28" CvTextArgument="DENTRIXASCEND" CvType="Text" DesignTimeRectangle="829, 479, 282, 24" FullSelectorArgument="&lt;webctrl id='loginLogo' tag='DIV' /&gt;" Guid="e2e28e65-c556-4a15-894b-5b8084a43d27" SearchSteps="Selector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Home'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="528,190" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="55bf851e-10f6-4b00-b7c8-f1ee9fc2edfc" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="live6.dentrixascend.com/pm" ContentHash="CXNWHNSRdUeThNlHYw24Yg" DesignTimeRectangle="450, 185, 20, 42" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='drop1' tag='A' type='' class='caretContainer dropdown-toggle noLoader nav-link' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="36e21e78-cb17-47f3-b16b-3e9ad9e915c2" InformativeScreenshot="817661883afa210d4d9462367e99d074.png" Reference="pqAS0brmv0e-eRPLlBx1NA/RIbmaXp98E6VoSJ0GHXZwA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dentrix Ascend - Overview' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="00f93042-7915-4a45-ad8d-7aeecbf53959" CvTextArea="404, 197, 37, 13" CvTextArgument="Home" CvType="Text" DesignTimeRectangle="373, 185, 74, 42" FuzzySelectorArgument="&lt;webctrl parentid='mainNavigationBar' tag='SPAN' type='' class='split-nav-link' aaname='                                                  Home                     ' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Home' /&gt;" Guid="48b26002-1b99-4d3c-8ba5-00f90b6625bf" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Power Reporting'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="528,190" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="55bf851e-10f6-4b00-b7c8-f1ee9fc2edfc" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="live6.dentrixascend.com/pm" CVScreenId="b18d252d-6017-4ed5-89e2-59b320074670" ContentHash="0V9nx2mxKkGoTMJdNmUvJA" CvTextArea="788, 876, 97, 15" CvTextArgument="Power Reporting" CvType="Text" DesignTimeRectangle="779, 869, 182, 27" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='customReports' tag='A' /&gt;" Guid="8c1ac32d-e4e4-4988-a062-48ab90e69e0c" InformativeScreenshot="1ef450398389a2b7b23077d4e7b10a44.png" Reference="pqAS0brmv0e-eRPLlBx1NA/cawkjeDqSkaSx3UKCTiFcw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dentrix Ascend - Overview' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="b18d252d-6017-4ed5-89e2-59b320074670" CvElementArea="777, 235, 185, 30" CvType="InputBox" DesignTimeRectangle="779, 237, 182, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='reports-menu' tag='SPAN' type='' class='dropdown-title' aaname='Reports' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='REPORTS' /&gt;" Guid="0decdc32-7813-40c3-820f-bf69ab905ae0" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Power Reporting'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="528,242" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="55bf851e-10f6-4b00-b7c8-f1ee9fc2edfc" Text="looker" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="live6.dentrixascend.com/pm" CVScreenId="d8dcc64b-ae2a-4b5a-bb12-b78c4bd02d1c" ContentHash="BnyDJcqbBEGcxQY_XHZFMg" CvElementArea="26, 288, 267, 28" CvType="InputBox" DesignTimeRectangle="28, 289, 265, 26" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='customReportSearch' tag='INPUT' /&gt;" Guid="986ab433-6d7b-4a30-90d6-5a73b042c67c" InformativeScreenshot="a8b1af2690aabd57e563c3a893b26e23.png" IsResponsive="True" Reference="pqAS0brmv0e-eRPLlBx1NA/_9c_KBEy6Uq2Z922EJF6GQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dentrix Ascend - Power Reporting' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="d8dcc64b-ae2a-4b5a-bb12-b78c4bd02d1c" CvTextArea="27, 247, 157, 24" CvTextArgument="Power Reporting" CvType="Text" DesignTimeRectangle="28, 245, 156, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='powerReportingTitle' tag='SPAN' type='' class='' aaname='Power Reporting' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Power Reporting' /&gt;" Guid="64785ad5-b7a9-436d-9959-10489cdcd5ac" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Power Reporting'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="528,190" sap2010:WorkflowViewState.IdRef="NClick_10" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="55bf851e-10f6-4b00-b7c8-f1ee9fc2edfc" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="live6.dentrixascend.com/pm" CVScreenId="bb771295-ab71-41fb-bc6c-50a52c17706a" ContentHash="nTezletDW0WKjsgFhiAaNw" CvElementArea="575, 390, 74, 71" CvType="Icon" DesignTimeRectangle="578, 393, 64, 64" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl idx='2' parentid='customReportList' tag='IMG' /&gt;" Guid="51ea393c-91bf-4877-9502-617635fce344" ImageBase64="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" InformativeScreenshot="00f5b8df1213a9df6e21e7b3d35388f1.png" Reference="pqAS0brmv0e-eRPLlBx1NA/w6K8bVGtR0eqeVSAR8c2-g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dentrix Ascend - Power Reporting' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="bb771295-ab71-41fb-bc6c-50a52c17706a" CvTextArea="27, 313, 158, 24" CvTextArgument="Power Reporting" CvType="Text" DesignTimeRectangle="28, 311, 156, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='powerReportingTitle' tag='SPAN' type='' class='' aaname='Power Reporting' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Power Reporting' /&gt;" Guid="b44313df-fdf6-48f1-a170-d6ddf1ad163e" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NCheckState DisplayName="Check App State 'LocationPatientService …'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="528,3726" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="55bf851e-10f6-4b00-b7c8-f1ee9fc2edfc" Timeout="600" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="526,3355" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Schedule'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="492,190" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="55bf851e-10f6-4b00-b7c8-f1ee9fc2edfc" Timeout="300" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="live6.dentrixascend.com/pm" CVScreenId="79726c7e-c424-492a-95b6-b85028685c42" ContentHash="8svZCkegP0yr1un1XVnWEQ" CvElementArea="730, 303, 25, 20" CvType="Icon" DesignTimeRectangle="728, 301, 29, 24" ElementType="Icon" ElementVisibilityArgument="Interactive" Guid="30e00e33-85f1-4d18-806a-8d8c12380cdc" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB0AAAAYCAYAAAAGXva8AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEjSURBVEhL7ZS9DYMwEEazGgPQMwA9A9DTMwA9PT0D0DMAPQPQOXqRPssxNj8SJClSPGHd2X74fPBYlsV8mocf+AR/6a38trTve5MkyYu2bVf5M2xKu64zaZqapmlMURRWmmXZK8azqqrVuj2i0nEcrUTwAuDHz548KgVOItkwDDbOOM9zm5umabV2i6iUjSTl1H5+nmd76kuklEulK8tylRd1Xb+VmBfhjnlqTigWlNIk2oyxn4/Nk4DSMwbGNOGulM9DpWWRnxdUgTnMpdMVlxhC3R2UCjWLu6GgmdRIfg6QhYQQlbqNAmyACNyygtvZR4hK6cjQNxmC6/DXbxGVAp8K98amuj+g7JyO04dKv8em1EV3CGf/QD6HpVfyl97KV6RPFXHc/GsPyy8AAAAASUVORK5CYII=" InformativeScreenshot="45fb7efe198b9f32f4d448979ecc8eb1.png" Reference="pqAS0brmv0e-eRPLlBx1NA/wy8c0mSDtk-tvI_8ZRcS4A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dentrix Ascend - Power Reporting' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="79726c7e-c424-492a-95b6-b85028685c42" CvTextArea="506, 197, 58, 13" CvTextArgument="Schedule" CvType="Text" DesignTimeRectangle="476, 185, 93, 42" FuzzySelectorArgument="&lt;webctrl class='split-nav-link' type='' parentid='mainNavigationBar' tag='SPAN' aaname='                                                  Schedule                     ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Schedule' /&gt;" Guid="31527da6-9711-43c7-aee4-ce824a7f5dee" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="492,167" sap2010:WorkflowViewState.IdRef="SendHotkey_1" Key="enter" KeyModifiers="None" SpecialKey="True">
+                    <ui:SendHotkey.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="01cece8f-8876-4576-9b06-01ad68d25497">
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:SendHotkey.Target>
+                  </ui:SendHotkey>
+                  <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="492,167" sap2010:WorkflowViewState.IdRef="SendHotkey_2" Key="down" KeyModifiers="None" SpecialKey="True">
+                    <ui:SendHotkey.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="01cece8f-8876-4576-9b06-01ad68d25497">
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:SendHotkey.Target>
+                  </ui:SendHotkey>
+                  <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="492,167" sap2010:WorkflowViewState.IdRef="SendHotkey_3" Key="enter" KeyModifiers="None" SpecialKey="True">
+                    <ui:SendHotkey.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="01cece8f-8876-4576-9b06-01ad68d25497">
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:SendHotkey.Target>
+                  </ui:SendHotkey>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Button'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="492,190" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="55bf851e-10f6-4b00-b7c8-f1ee9fc2edfc" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="live6.dentrixascend.com/pm" CVScreenId="3661252c-0bb8-4979-8e71-3b9557aefbec" ContentHash="VF50yTUkqUS8E0BrM55tHg" CvElementArea="1049, 711, 89, 42" CvTextArea="1071, 725, 44, 16" CvTextArgument="Export" CvType="Button" DesignTimeRectangle="1049, 711, 89, 42" ElementType="Button" ElementVisibilityArgument="Interactive" Guid="1ef77a41-a0d2-4eaa-9d0a-8551625ec46a" InformativeScreenshot="16bb86f26d2de722fe27033c20805bd6.png" Reference="pqAS0brmv0e-eRPLlBx1NA/_YI6mprtVk-58g8UlWAwyQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dentrix Ascend - Power Reporting' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="3661252c-0bb8-4979-8e71-3b9557aefbec" CvElementArea="1144, 711, 88, 41" CvTextArea="1166, 724, 44, 14" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="1144, 711, 88, 42" ElementType="Button" Guid="4ee680f6-098e-47da-8c4b-f4fea1458c25" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="492,383" sap2010:WorkflowViewState.IdRef="RetryScope_5">
+                    <ui:RetryScope.ActivityBody>
+                      <ActivityAction>
+                        <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="450,174" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Delay Duration="00:07:05" sap:VirtualizedContainerService.HintSize="416,114" sap2010:WorkflowViewState.IdRef="Delay_5" />
+                        </Sequence>
+                      </ActivityAction>
+                    </ui:RetryScope.ActivityBody>
+                    <ui:RetryScope.Condition>
+                      <ActivityFunc x:TypeArguments="x:Boolean" />
+                    </ui:RetryScope.Condition>
+                  </ui:RetryScope>
+                  <Assign sap:VirtualizedContainerService.HintSize="492,116" sap2010:WorkflowViewState.IdRef="Assign_3">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:String">[latest_file]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:String" xml:space="preserve">[Directory.GetFiles("C:\Users\Rohini\Downloads\", "New Patients(3) - Marketing(Looker)*.csv") _
+    .OrderByDescending(Function(f) New FileInfo(f).CreationTime) _
+    .First()]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <ui:ReadCsvFile PathResource="{x:Null}" DataTable="[table]" Delimitator="Comma" DelimitatorForViewModel="Comma" DisplayName="Read CSV" FilePath="[latest_file]" sap:VirtualizedContainerService.HintSize="492,170" sap2010:WorkflowViewState.IdRef="ReadCsvFile_5" />
+                  <ui:OutputDataTable Text="{x:Null}" DataTable="[table]" DisplayName="Output Data Table as Text" sap:VirtualizedContainerService.HintSize="492,113" sap2010:WorkflowViewState.IdRef="OutputDataTable_4" />
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="492,175" sap2010:WorkflowViewState.IdRef="LogMessage_6" Message="[variable1]" />
+                  <uga:WriteRangeConnections BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" Spreadsheet="{x:Null}" AuthScopesInvalid="False" ConnectionId="17c283c4-6a5f-4fbd-95b8-eb2b84fa94d9" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="492,446" sap2010:WorkflowViewState.IdRef="WriteRangeConnections_4" IncludeHeaders="True" ItemSelectionMode="UrlOrId" ManualEntrySpreadsheetId="https://docs.google.com/spreadsheets/d/1j-DttlwrrVrPapOBVMa6-6zwLTjVmB6MSmRMbTs1iHY/edit?gid=965830151#gid=965830151" Range="Production" RowPosition="0" Source="[table]" TemplateBrowserItemFriendlyName="Copy of Dentrix-Looker" TemplateBrowserItemId="https://docs.google.com/spreadsheets/d/1j-DttlwrrVrPapOBVMa6-6zwLTjVmB6MSmRMbTs1iHY/edit?usp=drivesdk" UseConnectionService="True" WorkingWithTemplateSpreadsheet="True" WriteMode="Overwrite">
+                    <uga:WriteRangeConnections.FileIdBackup>
+                      <usau:BackupSlot x:TypeArguments="ugade:EDriveItemMode" x:Name="__ReferenceID0" StoredValue="UrlOrId">
+                        <usau:BackupSlot.BackupValues>
+                          <scg:List x:TypeArguments="x:Object" x:Key="Browse" Capacity="2">
+                            <InArgument x:TypeArguments="x:String" />
+                            <InArgument x:TypeArguments="x:String" />
+                          </scg:List>
+                        </usau:BackupSlot.BackupValues>
+                      </usau:BackupSlot>
+                    </uga:WriteRangeConnections.FileIdBackup>
+                    <uga:WriteRangeConnections.Item>
+                      <ugam:DriveItemArgument Backup="{x:Reference __ReferenceID0}" BrowserId="{x:Null}" ConnectionDescriptor="{x:Null}" Existing="{x:Null}" FriendlyName="{x:Null}" FullPath="{x:Null}" ParentId="{x:Null}" ParentIdFriendlyName="{x:Null}" RelativePath="{x:Null}" ConnectionKey="17c283c4-6a5f-4fbd-95b8-eb2b84fa94d9" FullPathHint="[Nothing]" IdOrUrl="https://docs.google.com/spreadsheets/d/1j-DttlwrrVrPapOBVMa6-6zwLTjVmB6MSmRMbTs1iHY/edit?gid=965830151#gid=965830151" InputMode="UrlOrId">
+                        <ugam:DriveItemArgument.ParentIdFullPathHint>
+                          <InArgument x:TypeArguments="x:String">
+                            <Literal x:TypeArguments="x:String" Value="" />
+                          </InArgument>
+                        </ugam:DriveItemArgument.ParentIdFullPathHint>
+                      </ugam:DriveItemArgument>
+                    </uga:WriteRangeConnections.Item>
+                    <uga:WriteRangeConnections.RangeWriteModeBackup>
+                      <usau:BackupSlot x:TypeArguments="ugase:RangeWriteMode" StoredValue="Overwrite">
+                        <usau:BackupSlot.BackupValues>
+                          <scg:Dictionary x:TypeArguments="ugase:RangeWriteMode, scg:List(x:Object)" />
+                        </usau:BackupSlot.BackupValues>
+                      </usau:BackupSlot>
+                    </uga:WriteRangeConnections.RangeWriteModeBackup>
+                  </uga:WriteRangeConnections>
+                  <Assign sap:VirtualizedContainerService.HintSize="492,116" sap2010:WorkflowViewState.IdRef="Assign_4">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:String">[latest_file2]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:String" xml:space="preserve">[Directory.GetFiles("C:\Users\Rohini\Downloads\", "New Patients(3) - Marketing(Looker)*.csv") _
+    .OrderByDescending(Function(f) New FileInfo(f).CreationTime) _
+    .First()]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <ui:ReadCsvFile PathResource="{x:Null}" DataTable="[newpt_table]" Delimitator="Comma" DelimitatorForViewModel="Comma" DisplayName="Read CSV" FilePath="[latest_file2]" sap:VirtualizedContainerService.HintSize="492,170" sap2010:WorkflowViewState.IdRef="ReadCsvFile_6" />
+                  <ui:OutputDataTable DataTable="[newpt_table]" DisplayName="Output Data Table as Text" sap:VirtualizedContainerService.HintSize="492,113" sap2010:WorkflowViewState.IdRef="OutputDataTable_5" Text="[variable2]" />
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="492,175" sap2010:WorkflowViewState.IdRef="LogMessage_7" Message="[variable2]" />
+                  <uga:WriteRangeConnections BrowserItemFriendlyName="{x:Null}" BrowserItemId="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" Spreadsheet="{x:Null}" AuthScopesInvalid="False" ConnectionId="17c283c4-6a5f-4fbd-95b8-eb2b84fa94d9" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="492,437" sap2010:WorkflowViewState.IdRef="WriteRangeConnections_5" IncludeHeaders="True" ItemSelectionMode="UrlOrId" ManualEntrySpreadsheetId="https://docs.google.com/spreadsheets/d/1fYm4GkCfPQeq3MAqZtxvz4lULBHvULv3r4Ut8Del0wk/edit?gid=0#gid=0" Range="Production" RowPosition="0" Source="[newpt_table]" TemplateBrowserItemFriendlyName="Copy of Dentrix-Looker" TemplateBrowserItemId="https://docs.google.com/spreadsheets/d/1j-DttlwrrVrPapOBVMa6-6zwLTjVmB6MSmRMbTs1iHY/edit?usp=drivesdk" UseConnectionService="True" WorkingWithTemplateSpreadsheet="True" WriteMode="Overwrite">
+                    <uga:WriteRangeConnections.FileIdBackup>
+                      <usau:BackupSlot x:TypeArguments="ugade:EDriveItemMode" x:Name="__ReferenceID1" StoredValue="UrlOrId">
+                        <usau:BackupSlot.BackupValues>
+                          <scg:List x:TypeArguments="x:Object" x:Key="Browse" Capacity="2">
+                            <InArgument x:TypeArguments="x:String" />
+                            <InArgument x:TypeArguments="x:String" />
+                          </scg:List>
+                        </usau:BackupSlot.BackupValues>
+                      </usau:BackupSlot>
+                    </uga:WriteRangeConnections.FileIdBackup>
+                    <uga:WriteRangeConnections.Item>
+                      <ugam:DriveItemArgument Backup="{x:Reference __ReferenceID1}" BrowserId="{x:Null}" ConnectionDescriptor="{x:Null}" Existing="{x:Null}" FriendlyName="{x:Null}" FullPath="{x:Null}" ParentId="{x:Null}" ParentIdFriendlyName="{x:Null}" RelativePath="{x:Null}" ConnectionKey="17c283c4-6a5f-4fbd-95b8-eb2b84fa94d9" FullPathHint="[Nothing]" IdOrUrl="https://docs.google.com/spreadsheets/d/1fYm4GkCfPQeq3MAqZtxvz4lULBHvULv3r4Ut8Del0wk/edit?gid=0#gid=0" InputMode="UrlOrId">
+                        <ugam:DriveItemArgument.ParentIdFullPathHint>
+                          <InArgument x:TypeArguments="x:String">
+                            <Literal x:TypeArguments="x:String" Value="" />
+                          </InArgument>
+                        </ugam:DriveItemArgument.ParentIdFullPathHint>
+                      </ugam:DriveItemArgument>
+                    </uga:WriteRangeConnections.Item>
+                    <uga:WriteRangeConnections.RangeWriteModeBackup>
+                      <usau:BackupSlot x:TypeArguments="ugase:RangeWriteMode" StoredValue="Overwrite">
+                        <usau:BackupSlot.BackupValues>
+                          <scg:Dictionary x:TypeArguments="ugase:RangeWriteMode, scg:List(x:Object)" />
+                        </usau:BackupSlot.BackupValues>
+                      </usau:BackupSlot>
+                    </uga:WriteRangeConnections.RangeWriteModeBackup>
+                  </uga:WriteRangeConnections>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="526,90" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="live6.dentrixascend.com/pm" ContentHash="4Uid4tun7k6E9785iDLc8A" DesignTimeRectangle="505, 546, 839, 41" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='customReportIframe' tag='IFRAME' /&gt;&lt;webctrl id='iframe1' tag='IFRAME' /&gt;&lt;webctrl tableRow='1' tag='TABLE' /&gt;&lt;webctrl class='pivotTableRowLabelHeaderContainer' tableRow='1' tag='TD' /&gt;" Guid="12dde17a-02ab-4972-82a7-d72ab1444911" InformativeScreenshot="0efad7c267ede4638e73d7412e0ac6c8.png" Reference="pqAS0brmv0e-eRPLlBx1NA/D5SaZYFOr06dLJNnzL_slQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Dentrix Ascend - Power Reporting' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Chrome" ContentHash="xILXd88uX0OhlEH_AMQptw" IconBase64="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" InformativeScreenshot="71b3c811f6860fe620ca28614c72d1ed.jpg" Reference="pqAS0brmv0e-eRPLlBx1NA/pFOWoEYQiUOkDKejVZy6Fw" Selector="&lt;html app='chrome.exe' title='Dentrix Ascend - Overview' /&gt;" Url="https://live6.dentrixascend.com/pm#/dashboard" Version="V2">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
